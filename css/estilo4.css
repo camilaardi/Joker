@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(../IMG/p.jpg);
+    background-size: cover;
+}
+
+.header{
+    width: 100%;
+    height: 65px;
+    background-color:black;
+    /*background-color: rgb(126, 213, 243 );*/
+   /* background: #13D631;*/
+    position: absolute;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+.logo{
+    float: left;
+    line-height: 65px;
+    color: white;
+}
+.menu{
+    float: right;
+    line-height: 65px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu a{
+    display: block;
+    padding: 0px 30px;
+    text-decoration: none;
+    color: cyan;
+   /* color: #6d6d6d;*/
+    transition: all 500ms ease;
+}
+.menu a:hover{
+    background: darkblue;
+    color: #fff;
+}
+.menu .submenu{
+    background:linear-gradient(blue, purple) ;
+    box-shadow: 3px 10px 10px rgba(0,0,0,0.2);
+    display: none;
+}
+.menu .submenu li a{
+    line-height: 50px;
+}
+.menu ul li a:hover + ul, .menu .submenu:hover{
+    display: block;
+}
+
+
+.slider-item{
+  display: flex;
+  width: 300px;
+  height: 270px;
+
+
+}
+
+.slider-container {
+  display: flex;
+  width: 100%;
+
+}
+
+.slider-container img {
+  flex: 0 0 15%;
+  /*width: 15%;*/
+  margin: 0 160px;
+
+
+}
+
+.button {
+    background-color: purple; 
+    border: none;
+    color: darkviolet;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: darkviolet; 
+    color: black; 
+    border: 2px solid rebeccapurple;
+}
+
+.button1:hover {
+    background: darkblue;
+    color: white;
+}
+

@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image:linear-gradient(0deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../IMG/teti.png) ;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	padding: 100px;
+	font-family: 'Poppins', sans-serif;
+}
+
+h1{
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background: linear-gradient(cyan,white);
+	-webkit-background-clip:text;
+	color: transparent;
+}
+
+input[type="text"], input[type="password"], input[type="email"]
+{
+	width: 380px;
+	padding: 10px;
+	margin-bottom: 15px;
+	margin-top: 1px;
+}
+
+input[type="submit"]{
+	border: 0;
+	width: 20%;
+	padding: 10px 20px;
+	position: relative;
+	left: 1px;
+	bottom: 12px;
+	border-radius: 10px;
+}  
+
+input[type="submit"]:hover{
+	border: 0;
+	width: 21%;
+	padding: 10px 20px;
+	position: relative;
+	left: 1px;
+	bottom: 12px;
+	border-radius: 10px;
+	background-color: lightcyan;
+	color: black;
+}
+
+.btn-green{
+	font-size: 20px;
+	color: white;
+	background-color: purple ;
+
+}
+
+.btn-green:hover{
+	background-color: rebeccapurple;
+}
+
+.btn-green:active{
+background-color: mediumpurple;
+}
+
+input{
+	border: 0;
+	outline: none;
+	border-radius: 10px;
+}
+
+.field{
+	border: solid 1px #ccc;
+	border-radius: 4px 4px 4px 4px;
+	padding: 10px;
+	width: 20px;
+}
+
+.field:focus{
+	border-color:#18a383 ;
+}

@@ -1,0 +1,56 @@
+*{
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+}
+
+nav{
+        background-color: darkmagenta ;
+        letter-spacing: 10px;
+}
+body{
+        color: white;
+        background-image: url(../IMG/azul.png) ;
+        background-size: cover;
+        box-sizing: border-box;
+        padding: 100px;
+}
+
+table{
+        width: 100%;
+        border-collapse: collapse;
+        background: mediumpurple;
+}
+
+th, td{
+        border-color: black;
+        border: solid 2px;
+        padding: 10px;
+}
+
+th{
+        background-color:purple ;
+        border-color: black;
+        border: solid 2px;
+        padding: 10px;
+}
+
+tr:nth-child(even){
+        background: rebeccapurple;
+}
+
+.edit_btn{
+        text-decoration: none;
+        padding: 2px 5px;
+        background: darkblue;
+        color: white;
+        border-radius: 3px;
+}
+
+.del_btn{
+        text-decoration: none;
+        padding: 2px 5px;
+        background: crimson;
+        color: white;
+        border-radius: 3px;
+}
+
